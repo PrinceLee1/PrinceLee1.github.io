@@ -140,13 +140,12 @@ transform: translateY(-95%);
 .ready{
     width: 400px;
     height: 150px;
-    margin-left: 400px;
+    margin-left: 455px;
     margin-top: 80px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);    box-sizing: border-box;
     border-radius: 7px ;
-    top: 0px;
-    bottom: 300px;
-    float: unset
+   transform: translateY(40%);
+   background-color: #fff
 }
 .ready h2{
     font-size: 18px;
@@ -169,7 +168,44 @@ transform: translateY(-95%);
     background-color: hsl(192, 100%, 9%);
     height: 300px;
 }
-@media screen and (max-width:375px){
+.foot img[src="icon-location.svg"]{
+    margin-top: 40px
+}
+.foot img[src="icon-phone.svg"]{
+    margin-top: 42px
+}
+.foot img[src="icon-email.svg"]{
+    margin-top: 40px
+}
+.foot span{
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+.first-Ul{
+    margin-left: 720px;
+    color: #fff;
+    transform: translateY(-150%)
+}
+.first-Ul li{
+    margin-bottom: 18px;
+    list-style: none;
+}
+.second-Ul{
+    margin-left: 1000px;
+    color: #fff;
+    transform: translateY(-270%)
+}
+.second-Ul li{
+    margin-bottom: 18px;
+    list-style: none;
+}
+p[class="copywright"]{
+    color: #fff;
+    margin-left: 900px;
+    transform: translateY(-210px)
+}
+@media screen and (max-width:320px){
     header{
         width: 100%;
     }

@@ -327,7 +327,7 @@ p[class="copywright"]{
         transform: translateY(600%)
     }
 }
-@media screen and (max-width:425px){
+/* @media screen and (max-width:425px){
     header{
         margin: 0px 2px auto;
         max-width: 100%;
@@ -445,7 +445,7 @@ p[class="copywright"]{
         margin-left: 10px;
         transform: translateY(600%)
     }
-}
+} */
 /* @media screen and (max-width:768px){
     header{
         margin: 0px 2px auto;

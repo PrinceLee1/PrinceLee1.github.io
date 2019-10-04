@@ -232,7 +232,7 @@ p[class="copywright"]{
         margin: 18px 20px auto;
        transform: translateX(0%);
         max-width: 325px;
-        height: 120vh;
+        height: 95vh;
     }
     .sec img{
         margin-left: 10px;
@@ -251,7 +251,7 @@ p[class="copywright"]{
         margin: 18px 20px auto;
         max-width: 325px;
         transform: translateX(0%);
-                max-height: 120vh;
+                max-height: 95vh;
     }
     .third img{
         margin-left: 35px;
@@ -272,7 +272,7 @@ p[class="copywright"]{
         margin: 18px 20px auto;
         transform: translateX(0%);
                 max-width: 325px;
-        max-height: 110vh;
+        max-height: 95vh;
     }
     .forth img{
         margin-left: 35px;
@@ -353,7 +353,7 @@ p[class="copywright"]{
     .sec{
         margin: 18px 20px auto;
         max-width: 325px;
-        height: 110vh;
+        height: 95vh;
     }
     .sec img{
         margin-left: 35px;
@@ -371,7 +371,7 @@ p[class="copywright"]{
     .third{
         margin: 18px 20px auto;
         width: 325px;
-        height: 110vh;
+        height: 95vh;
     }
     .third img{
         margin-left: 35px;
@@ -391,7 +391,7 @@ p[class="copywright"]{
     .forth{
         margin: 18px 20px auto;
         width: 325px;
-        height: 110vh;
+        height: 95vh;
     }
     .forth img{
         margin-left: 35px;

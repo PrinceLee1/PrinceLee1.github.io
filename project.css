@@ -209,7 +209,7 @@ p[class="copywright"]{
     header{
         margin: 0px 2px auto;
         max-width: 100%;
-            height: 90vh;
+        max-height: 130vh;
     }
     .text h2{
         top: 180px;
@@ -221,8 +221,7 @@ p[class="copywright"]{
         margin-left: 5px
     }
     button[type="submit"]{
-        margin-left: 78px;
-        margin-top:40px
+        margin-left: 78px
     }
     img[class="mockup"]{
         display: none;
@@ -233,13 +232,13 @@ p[class="copywright"]{
         margin: 18px 20px auto;
        transform: translateX(0%);
         max-width: 325px;
-        max-height: 85vh;
+        height: 100vh;
     }
     .sec img{
         margin-left: 10px;
-    transform: translateY(270px);
+    transform: translateY(80%);
         max-width: 250px;
-        max-height: 140px;
+        max-height: 110px;
     }
     .sec h3{
         margin-left: 75px
@@ -252,7 +251,8 @@ p[class="copywright"]{
         margin: 18px 20px auto;
         max-width: 325px;
         transform: translateX(0%);
-        max-height: 85vh;    }
+                max-height: 100vh;
+    }
     .third img{
         margin-left: 35px;
        margin-top:100px;
@@ -272,7 +272,8 @@ p[class="copywright"]{
         margin: 18px 20px auto;
         transform: translateX(0%);
                 max-width: 325px;
-                max-height: 85vh;    }
+        max-height: 100vh;
+    }
     .forth img{
         margin-left: 35px;
        transform: translateY(70%);
@@ -289,7 +290,7 @@ p[class="copywright"]{
     .ready{
         margin: 18px 48px auto;
         width: 270px;
-        height: 20vh;
+        height: 28vh;
     }
     .ready h2{
         font-size: 15px;

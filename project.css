@@ -232,7 +232,7 @@ p[class="copywright"]{
         margin: 18px 20px auto;
        transform: translateX(0%);
         max-width: 325px;
-        height: 120vh;
+        /* height: 120vh; */
     }
     .sec img{
         margin-left: 10px;
@@ -251,13 +251,13 @@ p[class="copywright"]{
         margin: 18px 20px auto;
         max-width: 325px;
         transform: translateX(0%);
-                max-height: 120vh;
+                /* max-height: 120vh; */
     }
     .third img{
         margin-left: 35px;
        margin-top:100px;
         max-width: 250px;
-        max-height: 120px;
+        /* max-height: 120px; */
     }
     .third h3{
         margin-left: 65px;
@@ -272,7 +272,7 @@ p[class="copywright"]{
         margin: 18px 20px auto;
         transform: translateX(0%);
                 max-width: 325px;
-        max-height: 110vh;
+        /* max-height: 110vh; */
     }
     .forth img{
         margin-left: 35px;
@@ -290,7 +290,7 @@ p[class="copywright"]{
     .ready{
         margin: 18px 48px auto;
         width: 270px;
-        height: 28vh;
+        /* height: 28vh; */
     }
     .ready h2{
         font-size: 15px;
@@ -301,7 +301,7 @@ p[class="copywright"]{
         margin-top: 43px
     }
     .foot{
-        max-height: 146vh;
+        /* max-height: 146vh; */
     }
     .foot img[src="logo.svg"]{
         margin-top: 110px

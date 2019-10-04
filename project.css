@@ -138,8 +138,8 @@ transform: translateY(-88%);
 transform: translateY(-95%);
 }
 .ready{
-    width: 400px;
-    height: 150px;
+    max-width: 400px;
+    max-height: 150px;
     margin-left: 455px;
     margin-top: 80px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);    box-sizing: border-box;
@@ -205,23 +205,23 @@ p[class="copywright"]{
     margin-left: 900px;
     transform: translateY(-210px)
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:375px){
     header{
         margin: 0px 2px auto;
-        width: 100%;
-        height: 150vh;
+        max-width: 100%;
+        max-height: 130vh;
     }
     .text h2{
-        top: 100px;
+        top: 180px;
         text-align: center;
-       left: 10px
+       left: 5px
     }
     .text p{
         text-align: center;
-        margin-left: 10px
+        margin-left: 5px
     }
     button[type="submit"]{
-        margin-left: 65px
+        margin-left: 78px
     }
     img[class="mockup"]{
         display: none;
@@ -230,17 +230,18 @@ p[class="copywright"]{
     }
     .sec{
         margin: 18px 20px auto;
-        width: 270px;
+       transform: translateX(0%);
+        max-width: 325px;
         height: 120vh;
     }
     .sec img{
         margin-left: 10px;
-    transform: translateY(60%);
-        width: 250px;
-        height: 110px;
+    transform: translateY(80%);
+        max-width: 250px;
+        max-height: 110px;
     }
     .sec h3{
-        margin-left: 60px
+        margin-left: 75px
     }
     .sec p{
         text-align: center;
@@ -248,18 +249,19 @@ p[class="copywright"]{
     }
     .third{
         margin: 18px 20px auto;
-        width: 270px;
-        height: 120vh;
+        max-width: 325px;
+        transform: translateX(0%);
+                max-height: 120vh;
     }
     .third img{
-        margin-left: 10px;
+        margin-left: 35px;
        margin-top:100px;
-        width: 250px;
-        height: 120px;
+        max-width: 250px;
+        max-height: 120px;
     }
     .third h3{
-        margin-left: 40px;
-        margin-top: 300px
+        margin-left: 65px;
+        margin-top: 270px
     }
     .third p{
         text-align: center;
@@ -268,24 +270,25 @@ p[class="copywright"]{
     }
     .forth{
         margin: 18px 20px auto;
-        width: 270px;
-        height: 110vh;
+        transform: translateX(0%);
+                max-width: 325px;
+        max-height: 110vh;
     }
     .forth img{
-        margin-left: 20px;
-       transform: translateY(28%);
-        width: 250px;
-        height: 120px;
+        margin-left: 35px;
+       transform: translateY(70%);
+        max-width: 250px;
+        max-height: 120px;
     }
     .forth h3{
-        margin-left: 60px
+        margin-left: 90px
     }
     .forth p{
         text-align: center;
         margin-left: 2px
     }
     .ready{
-        margin: 18px 20px auto;
+        margin: 18px 48px auto;
         width: 270px;
         height: 28vh;
     }
@@ -298,14 +301,16 @@ p[class="copywright"]{
         margin-top: 43px
     }
     .foot{
-        height: 146vh;
+        max-height: 146vh;
     }
     .foot img[src="logo.svg"]{
         margin-top: 110px
     }
-    .foot span[class="location"]{
-        font-size: 14px;
+    .foot span[class="location"],.foot span[class="phone"],.foot span[class="email"]{
+        font-size: 12px;
+        margin-left: 20px
     }
+    
     .first-Ul{
         margin-left: 15px;
         color: #fff;
@@ -322,3 +327,218 @@ p[class="copywright"]{
         transform: translateY(600%)
     }
 }
+@media screen and (max-width:425px){
+    header{
+        margin: 0px 2px auto;
+        max-width: 100%;
+        max-height: 130vh;
+    }
+    .text h2{
+        top: 180px;
+        text-align: center;
+       left: 25px
+    }
+    .text p{
+        text-align: center;
+        margin-left: 10px
+    }
+    button[type="submit"]{
+        margin-left: 78px
+    }
+    img[class="mockup"]{
+        display: none;
+      right: 400px;
+      max-width:250px
+    }
+    .sec{
+        margin: 18px 20px auto;
+        max-width: 325px;
+        height: 120vh;
+    }
+    .sec img{
+        margin-left: 35px;
+    transform: translateY(80%);
+        width: 250px;
+        height: 110px;
+    }
+    .sec h3{
+        margin-left: 75px
+    }
+    .sec p{
+        text-align: center;
+        margin-left: 2px
+    }
+    .third{
+        margin: 18px 20px auto;
+        width: 325px;
+        height: 120vh;
+    }
+    .third img{
+        margin-left: 35px;
+       margin-top:100px;
+        width: 250px;
+        height: 120px;
+    }
+    .third h3{
+        margin-left: 65px;
+        margin-top: 270px
+    }
+    .third p{
+        text-align: center;
+        margin-left: 2px;
+        margin-top: 100px
+    }
+    .forth{
+        margin: 18px 20px auto;
+        width: 325px;
+        height: 110vh;
+    }
+    .forth img{
+        margin-left: 35px;
+       transform: translateY(70%);
+        width: 250px;
+        height: 120px;
+    }
+    .forth h3{
+        margin-left: 90px
+    }
+    .forth p{
+        text-align: center;
+        margin-left: 2px
+    }
+    .ready{
+        margin: 18px 48px auto;
+        max-width: 270px;
+        max-height: 28vh;
+    }
+    .ready h2{
+        font-size: 15px;
+        margin-left: 18px
+    }
+    .ready button[type="reset"]{
+        margin-left: 28px;
+        margin-top: 43px
+    }
+    .foot{
+        height: 146vh;
+    }
+    .foot img[src="logo.svg"]{
+        margin-top: 110px
+    }
+    .foot span[class="location"],.foot span[class="phone"],.foot span[class="email"]{
+        font-size: 12px;
+        margin-left: 20px
+    }
+    
+    .first-Ul{
+        margin-left: 15px;
+        color: #fff;
+        transform: translateY(80%)
+    }
+    .second-Ul{
+        margin-left: 15px;
+        color: #fff;
+        transform: translateY(83%)
+    }
+    p[class="copywright"]{
+        font-size: 12px;
+        margin-left: 10px;
+        transform: translateY(600%)
+    }
+}
+/* @media screen and (max-width:768px){
+    header{
+        margin: 0px 2px auto;
+        max-width: 100%;
+        max-height: 90vh;
+    }
+
+   header img[class="mockup"]{
+margin-left: 420px;
+width: 300px;
+height: 220px;
+transform: translateY(-110%)
+    }
+    .text h2{
+        top: 150px;
+        font-size: 28px;
+        left: 40px;
+    }
+    .text p{
+        font-size: 12px;
+        margin-left: 40px;
+        margin-top: 200px
+    }
+    button[type="submit"]{
+        margin-left: 40px;
+    }
+    .sec,.third,.forth{
+        width: 715px;
+        margin-left: 20px
+    }
+    .sec h3,.third h3,.forth h3{
+        font-size: 18px;
+    }
+    .sec p,.third p,.forth p{
+        font-size: 13px
+    }
+    .sec img{
+        margin-left: 460px;
+        max-width: 200px;
+        max-height: 150px;
+    }
+    .third h3{
+margin-top: 60px ;
+margin-left: 330px
+    }
+    .third img{
+        margin-left: 50px;
+        max-width: 200px;
+        max-height: 150px
+    }
+    .third p{
+        margin-left: 330px;
+        transform: translateY(-250%);    }
+
+}
+.forth img{
+    margin-left: 460px;
+    max-width: 200px;
+    max-height: 150px;
+}
+.ready{
+    margin: 18px 48px auto;
+    max-width: 350px;
+    max-height: 200px;
+margin-left: 200px;
+}
+.ready button[type="reset"]{
+    margin-bottom: 20px;
+    margin-left: 70px
+}
+.ready h2{
+    font-size: 14px ;
+    margin-top: 15px
+
+}
+.first-Ul{
+    font-size: 13px;
+    margin-left: 450px;
+    color: #fff;
+    transform: translateY(-170%)
+}
+.second-Ul{
+    font-size: 13px;
+    margin-left: 600px;
+    color: #fff;
+    transform: translateY(-290%)
+}
+.foot span[class="location"],.foot span[class="phone"],.foot span[class="email"]{
+    font-size: 13px
+}
+p[class="copywright"]{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 400px;
+    transform: translateY(-188px)
+} */

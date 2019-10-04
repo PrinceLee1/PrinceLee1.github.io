@@ -209,7 +209,7 @@ p[class="copywright"]{
     header{
         margin: 0px 2px auto;
         max-width: 100%;
-        max-height: 130vh;
+        /* max-height: 130vh; */
     }
     .text h2{
         top: 180px;
@@ -238,7 +238,7 @@ p[class="copywright"]{
         margin-left: 10px;
     transform: translateY(80%);
         max-width: 250px;
-        max-height: 110px;
+        /* max-height: 110px; */
     }
     .sec h3{
         margin-left: 75px
@@ -278,7 +278,7 @@ p[class="copywright"]{
         margin-left: 35px;
        transform: translateY(70%);
         max-width: 250px;
-        max-height: 120px;
+        /* max-height: 120px; */
     }
     .forth h3{
         margin-left: 90px
